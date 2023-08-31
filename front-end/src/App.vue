@@ -8,7 +8,7 @@
       <p>{{ teamMembers }}</p>
     </section>
     <section class="section project-description">
-      <h2> <i class="fas fa-file-alt"> </i> Descrição do Projeto</h2>
+      <h2> <i class="fas fa-file-alt"> </i> Descrição Informal</h2>
       <p>{{ projectDescription }}</p>
       <p>{{ projectOverview }}</p>
     </section>
