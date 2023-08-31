@@ -15,6 +15,10 @@
       <h2><i class="fas fa-chart-bar"></i> Impacto e Benefícios</h2>
       <p>{{ projectImpact }}</p>
     </section>
+    <section class="section project-value">
+      <h2><i class="fa-solid fa-hand-holding-dollar"></i> Valor Entregue</h2>
+      <p>{{ projectValue }}</p>
+    </section>
     <section class="section team-members">
       <h2><i class="fas fa-users"></i> Membros da Equipe</h2>
       <p>{{ teamMembers }}</p>
@@ -31,10 +35,11 @@ export default {
   data() {
     return {
       pageTitle: 'Butique de Aluguel de Roupas',
-      projectDescription: "Este projeto é focado em desenvolver um software para facilitar o aluguel de roupas. No mundo moderno, a busca por alternativas sustentáveis e práticas está redefinindo as indústrias tradicionais. Nesse contexto, um projeto de software de aluguel de roupas é uma resposta inteligente aos desafios da sociedade contemporânea, onde a moda rápida e o consumo excessivo estão dando lugar a uma mentalidade mais consciente e ambientalmente responsável.",
-      projectOverview: "O projeto tem como foco desenvolver um software intuitivo e eficiente que permita às lojas controlar de maneira centralizada seu estoque de roupas. O sistema proposto será uma solução intuitiva para o acompanhamento das peças em estoque. Permitirá registrar as informações-chave das roupas, como categorias, tamanhos, cores e descrições, e acompanhar as entradas e saídas das roupas reservadas.",
-      projectImpact: "Ao implementar esse sistema de gerenciamento de estoque, espera-se que a loja de roupas otimize suas operações, evite perdas por falta ou excesso de estoque, conflitos de datas e reservas. Além disso, espera-se que o atendimento aos clientes seja mais eficiente e ágil.",
-      teamMembers: "Membros do grupo: Karen, Mikaela, Gabriel e Felipe"
+      projectDescription: "Este projeto é focado em desenvolver um software para facilitar o aluguel de roupas. É de conhecimento comum que determinados eventos que pedem um tipo de roupa específica muitas vezes são ocasiões raras. Dessa forma, se torna vantajoso para os participantes do evento alugar suas roupas do que comprar. Não à toa, o negócio de aluguel de roupas é algo bem difundido na sociedade. A proposta deste projeto é que o processo de escolha e reserva da roupa seja feita de forma online, buscando acompanhar as necessidades do mundo contemporâneo, onde a economia de tempo e praticidade são muito procurados.",
+      projectOverview: "O projeto tem como foco desenvolver um software intuitivo e eficiente que permita às lojas expor suas peças de roupas em uma plataforma online para os clientes, onde eles poderão fazer a reserva online mediante pagamento e agendar para ir até a loja para continuar o processo de locação da peça. Além disso, o sistema permitirá registrar as informações-chave das roupas, como categorias, tamanhos, cores e descrições, e acompanhar as entradas e saídas das roupas reservadas.",
+      projectImpact: "Ao implementar esse sistema de aluguel de roupas online, espera-se que a loja de roupas otimize suas operações, evite perdas por falta ou excesso de estoque, conflitos de datas e reservas. Além disso, espera-se que o atendimento aos clientes seja mais eficiente e ágil.",
+      projectValue: "A proposta de valor é economizar tempo para os clientes. Com uma plataforma intuitiva, os usuários poderão visualizar facilmente um catálogo diversificado de roupas de festa disponíveis para aluguel. Isso permite que eles encontrem a peça perfeita de forma conveniente, economizando tempo e esforço na busca por roupas para eventos especiais. Além disso, o sistema oferecerá um processo de reserva simplificado, permitindo que os clientes assegurem suas escolhas com antecedência, minimizando conflitos de datas e garantindo que tenham a roupa ideal para seus momentos especiais.",
+      teamMembers: "Membros do grupo: Karen Pacheco, Mikaela Rikberg, Felipe Villela e Gabriel Rodrigues"
     };
   }
 };
