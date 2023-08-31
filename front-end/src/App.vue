@@ -85,6 +85,8 @@ h1 {
   font-size: 16px;
   color: #666;
   line-height: 1.5;
+  text-align: justify;
+  padding: 15px;
 }
 
 footer {
