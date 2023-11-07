@@ -24,6 +24,27 @@
       <h2><i class="fa-solid fa-hand-holding-dollar"></i> Valor Entregue</h2>
       <p>{{ projectValue }}</p>
     </section>
+    <section>
+      <section class="section stakeholders-sheet">
+  <h2><i class="fas fa-file-excel"></i> Partes Interessadas</h2>
+  <a href="https://docs.google.com/spreadsheets/d/1WVFcj7jK5FBvDpg-N-mXMiOi4gnECLKQZr4w-FIaMKs/edit?usp=sharing" target="_blank">
+    <i class="fas fa-external-link-alt"></i> Acessar Planilha
+  </a>
+</section>
+<section class="section stakeholders-sheet">
+  <h2><i class="fas fa-file-excel"></i> Histórias do Usuário</h2>
+  <a href="https://docs.google.com/spreadsheets/d/1nFLiiEwRwzNb85esdaC05x7zxdRnkgU1IqLwPYg9cPM/edit#gid=0" target="_blank">
+    <i class="fas fa-external-link-alt"></i> Acessar Planilha
+  </a>
+</section>
+<section class="section stakeholders-sheet">
+  <h2><i class="fas fa-file-excel"></i> Casos de Uso</h2>
+  <a href="https://docs.google.com/spreadsheets/d/1RD4xQBFp3jz3wluYO4l1Cv_55vzXwxk7RdyXIbW0gNI/edit#gid=0" target="_blank">
+    <i class="fas fa-external-link-alt"></i> Acessar Planilha
+  </a>
+</section>
+
+    </section>
     <footer>
       <p>&copy; 2023 Butique. Todos os direitos reservados.</p>
     </footer>
